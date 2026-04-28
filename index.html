@@ -3,134 +3,201 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tour Packages</title>
+  <title>Tanzania Adventure Packages | Official Booking</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
-    /* Smooth transition for theme switching */
-    body { transition: background-color 0.3s ease, color 0.3s ease; }
+    body { font-family: 'Inter', sans-serif; }
+    .card-shadow { box-shadow: 0 20px 50px -12px rgba(0, 0, 0, 0.05); }
+    .dark .card-shadow { box-shadow: 0 20px 50px -12px rgba(0, 0, 0, 0.5); }
+    .custom-gradient { background: linear-gradient(135deg, #16a34a 0%, #15803d 100%); }
   </style>
 </head>
-<body class="bg-slate-50 text-slate-800 dark:bg-slate-950 dark:text-slate-100 antialiased">
+<body class="bg-[#F8FAFC] text-slate-900 dark:bg-[#020617] dark:text-slate-100 antialiased">
 
-  <header class="text-center py-16 px-4 bg-white dark:bg-slate-900 shadow-sm border-b dark:border-slate-800">
-    <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white">
-      Tanzania <span class="text-green-600">Adventure</span> Packages
-    </h1>
-    <p class="text-slate-500 dark:text-slate-400 mt-4 max-w-2xl mx-auto text-lg">
-      Choose your group size and enjoy a full-day guided experience tailored to your needs.
-    </p>
+  <header class="relative pt-20 pb-16 px-6 text-center">
+    <div class="max-w-4xl mx-auto">
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 text-xs font-bold uppercase tracking-wider mb-6">
+        <span class="relative flex h-2 w-2">
+          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+          <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+        </span>
+        Booking Open for 2026
+      </div>
+      <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6">
+        Pugu <span class="text-green-600">Kazimzumbwi</span> Packages
+      </h1>
+      <p class="text-slate-500 dark:text-slate-400 text-lg max-w-2xl mx-auto">
+        Complete full-day guided experiences. Select the tier that matches your group size.
+      </p>
+    </div>
   </header>
 
-  <main class="max-w-7xl mx-auto py-16 px-6 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+  <main class="max-w-[1400px] mx-auto pb-24 px-6">
+    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
 
-    <div class="group relative bg-white dark:bg-slate-900 rounded-3xl shadow-xl dark:shadow-2xl p-8 border border-slate-200 dark:border-slate-800 hover:border-green-500 transition-all duration-300">
-      <div class="absolute top-4 right-4 bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 text-[10px] uppercase tracking-widest font-bold px-3 py-1 rounded-full">
-        Private Choice
-      </div>
-      <h2 class="text-2xl font-bold">Private Escape</h2>
-      <p class="text-sm text-slate-500 dark:text-slate-400">For 4 Guests</p>
-      <div class="mt-6">
-        <span class="text-4xl font-black text-green-600 dark:text-green-400">100,000</span>
-        <span class="text-sm font-medium text-slate-500">TZS</span>
-      </div>
-      <p class="text-xs uppercase tracking-tighter text-slate-400 font-semibold mt-1">per person</p>
+      <div class="group bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 p-8 card-shadow transition-all duration-300 hover:border-green-500/50 flex flex-col">
+        <div class="mb-8">
+            <span class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 dark:text-slate-500 block mb-2">Group Size: 4 Guests</span>
+            <h2 class="text-2xl font-bold">Private Escape</h2>
+        </div>
 
-      <ul class="mt-8 space-y-4 text-sm font-medium">
-        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Entry Fee Included</li>
-        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Food & Drinks</li>
-        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Kayaking Experience</li>
-        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Private Car Entry</li>
-      </ul>
+        <div class="mb-8 bg-slate-50 dark:bg-slate-800/50 rounded-2xl p-4 border border-slate-100 dark:border-slate-700">
+            <div class="flex items-baseline gap-1">
+                <span class="text-4xl font-black text-slate-900 dark:text-white leading-none">100,000</span>
+                <span class="text-sm font-bold text-slate-500">TZS</span>
+            </div>
+            <p class="text-[10px] font-bold text-green-600 uppercase mt-2 tracking-wide">Fixed rate per person</p>
+        </div>
 
-      <div class="mt-8 bg-slate-50 dark:bg-slate-800/50 p-4 rounded-2xl text-xs border border-slate-100 dark:border-slate-800">
-        <p class="font-bold text-slate-900 dark:text-white mb-1 italic">Included Experiences</p>
-        <p class="leading-relaxed opacity-80">Hiking • Bird Watching • Spiritual Reflection • Mobile Photography</p>
-      </div>
+        <div class="space-y-6 flex-grow">
+            <div>
+                <p class="text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-4">Core Inclusions</p>
+                <ul class="space-y-3">
+                    <li class="flex items-center gap-3 text-sm font-medium"><svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Entry Fee Included</li>
+                    <li class="flex items-center gap-3 text-sm font-medium"><svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Food & Drinks</li>
+                    <li class="flex items-center gap-3 text-sm font-medium"><svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Kayaking Experience</li>
+                    <li class="flex items-center gap-3 text-sm font-medium text-blue-600 dark:text-blue-400"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Private Car Entry</li>
+                </ul>
+            </div>
 
-      <button class="mt-8 w-full bg-slate-900 dark:bg-green-600 hover:bg-green-600 dark:hover:bg-green-500 text-white font-bold py-4 rounded-2xl transition-colors shadow-lg shadow-green-900/10">Book Now</button>
-    </div>
+            <div class="pt-6 border-t border-slate-100 dark:border-slate-800">
+                <p class="text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-3 italic">Included Experiences</p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="text-[11px] px-2 py-1 rounded bg-slate-100 dark:bg-slate-800 font-semibold">Hiking</span>
+                    <span class="text-[11px] px-2 py-1 rounded bg-slate-100 dark:bg-slate-800 font-semibold">Bird Watching</span>
+                    <span class="text-[11px] px-2 py-1 rounded bg-slate-100 dark:bg-slate-800 font-semibold">Reflection</span>
+                    <span class="text-[11px] px-2 py-1 rounded bg-slate-100 dark:bg-slate-800 font-semibold">Mobile Photo</span>
+                </div>
+            </div>
+        </div>
 
-    <div class="group relative bg-white dark:bg-slate-900 rounded-3xl shadow-2xl p-8 border-2 border-green-500 transform lg:scale-105 z-10">
-      <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-green-600 text-white text-[10px] uppercase tracking-widest font-bold px-4 py-1.5 rounded-full shadow-lg">
-        Most Popular
-      </div>
-      <h2 class="text-2xl font-bold">Friends Adventure</h2>
-      <p class="text-sm text-slate-500 dark:text-slate-400">For 8 Guests</p>
-      <div class="mt-6">
-        <span class="text-4xl font-black text-green-600 dark:text-green-400">75,000</span>
-        <span class="text-sm font-medium text-slate-500">TZS</span>
-      </div>
-      <p class="text-xs uppercase tracking-tighter text-slate-400 font-semibold mt-1">per person</p>
-
-      <ul class="mt-8 space-y-4 text-sm font-medium">
-        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Entry Fee Included</li>
-        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Food & Drinks</li>
-        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Kayaking Experience</li>
-        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Hiace Transport Entry</li>
-      </ul>
-
-      <div class="mt-8 bg-green-50 dark:bg-green-900/20 p-4 rounded-2xl text-xs border border-green-100 dark:border-green-800/30">
-        <p class="font-bold text-green-800 dark:text-green-300 mb-1 italic">Included Experiences</p>
-        <p class="leading-relaxed dark:text-green-100/70">Hiking • Bird Watching • Spiritual Reflection • Mobile Photography</p>
+        <button class="mt-10 w-full py-4 rounded-2xl bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-bold hover:bg-green-600 dark:hover:bg-green-500 dark:hover:text-white transition-all">Book This Group</button>
       </div>
 
-      <button class="mt-8 w-full bg-green-600 hover:bg-green-700 text-white font-bold py-4 rounded-2xl transition-all shadow-lg shadow-green-600/20 active:scale-95">Book Now</button>
-    </div>
+      <div class="group relative bg-white dark:bg-slate-900 rounded-3xl border-2 border-green-600 p-8 card-shadow transition-all duration-300 transform lg:-translate-y-4 flex flex-col z-10">
+        <div class="absolute -top-4 left-1/2 -translate-x-1/2 custom-gradient text-white text-[10px] font-black uppercase tracking-[0.25em] px-6 py-2 rounded-full whitespace-nowrap">
+            Most Popular
+        </div>
 
-    <div class="group relative bg-white dark:bg-slate-900 rounded-3xl shadow-xl dark:shadow-2xl p-8 border border-slate-200 dark:border-slate-800 hover:border-blue-500 transition-all duration-300">
-      <div class="absolute top-4 right-4 bg-blue-100 dark:bg-blue-900/30 text-blue-600 dark:text-blue-400 text-[10px] uppercase tracking-widest font-bold px-3 py-1 rounded-full">
-        Best Value
-      </div>
-      <h2 class="text-2xl font-bold text-slate-900 dark:text-white">Team Explorer</h2>
-      <p class="text-sm text-slate-500 dark:text-slate-400">For 15 Guests</p>
-      <div class="mt-6">
-        <span class="text-4xl font-black text-green-600 dark:text-green-400">60,000</span>
-        <span class="text-sm font-medium text-slate-500">TZS</span>
-      </div>
-      <p class="text-xs uppercase tracking-tighter text-slate-400 font-semibold mt-1">per person</p>
+        <div class="mb-8">
+            <span class="text-[10px] font-black uppercase tracking-[0.2em] text-green-600 block mb-2">Group Size: 8 Guests</span>
+            <h2 class="text-2xl font-bold">Friends Adventure</h2>
+        </div>
 
-      <ul class="mt-8 space-y-4 text-sm font-medium">
-        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Entry Fee Included</li>
-        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Food & Drinks</li>
-        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Kayaking Experience</li>
-        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Hiace Transport Entry</li>
-      </ul>
+        <div class="mb-8 custom-gradient rounded-2xl p-4 shadow-lg shadow-green-500/20">
+            <div class="flex items-baseline gap-1">
+                <span class="text-4xl font-black text-white leading-none">75,000</span>
+                <span class="text-sm font-bold text-green-100">TZS</span>
+            </div>
+            <p class="text-[10px] font-bold text-green-200 uppercase mt-2 tracking-wide">Fixed rate per person</p>
+        </div>
 
-      <div class="mt-8 bg-slate-50 dark:bg-slate-800/50 p-4 rounded-2xl text-xs border border-slate-100 dark:border-slate-800">
-        <p class="font-bold text-slate-900 dark:text-white mb-1 italic">Included Experiences</p>
-        <p class="leading-relaxed opacity-80">Hiking • Bird Watching • Spiritual Reflection • Mobile Photography</p>
-      </div>
+        <div class="space-y-6 flex-grow">
+            <div>
+                <p class="text-[11px] font-bold text-slate-400 dark:text-slate-500 uppercase tracking-widest mb-4">Core Inclusions</p>
+                <ul class="space-y-3">
+                    <li class="flex items-center gap-3 text-sm font-semibold"><svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Entry Fee Included</li>
+                    <li class="flex items-center gap-3 text-sm font-semibold"><svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Food & Drinks</li>
+                    <li class="flex items-center gap-3 text-sm font-semibold"><svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Kayaking Experience</li>
+                    <li class="flex items-center gap-3 text-sm font-bold text-green-600"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Hiace Transport Entry</li>
+                </ul>
+            </div>
 
-      <button class="mt-8 w-full bg-slate-900 dark:bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 rounded-2xl transition-colors shadow-lg">Book Now</button>
-    </div>
+            <div class="pt-6 border-t border-slate-100 dark:border-slate-800">
+                <p class="text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-3 italic">Included Experiences</p>
+                <div class="grid grid-cols-2 gap-2 text-[10px] font-bold uppercase tracking-tighter">
+                    <div class="bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-400 p-2 rounded-lg">Hiking</div>
+                    <div class="bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-400 p-2 rounded-lg">Bird Watching</div>
+                    <div class="bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-400 p-2 rounded-lg">Reflection</div>
+                    <div class="bg-green-50 dark:bg-green-900/20 text-green-700 dark:text-green-400 p-2 rounded-lg">Photography</div>
+                </div>
+            </div>
+        </div>
 
-    <div class="group relative bg-white dark:bg-slate-900 rounded-3xl shadow-xl dark:shadow-2xl p-8 border border-slate-200 dark:border-slate-800 hover:border-orange-500 transition-all duration-300">
-      <div class="absolute top-4 right-4 bg-orange-100 dark:bg-orange-900/30 text-orange-600 dark:text-orange-400 text-[10px] uppercase tracking-widest font-bold px-3 py-1 rounded-full">
-        Group Deal
-      </div>
-      <h2 class="text-2xl font-bold text-slate-900 dark:text-white">Grand Expedition</h2>
-      <p class="text-sm text-slate-500 dark:text-slate-400">For 30 Guests</p>
-      <div class="mt-6">
-        <span class="text-4xl font-black text-green-600 dark:text-green-400">55,000</span>
-        <span class="text-sm font-medium text-slate-500">TZS</span>
-      </div>
-      <p class="text-xs uppercase tracking-tighter text-slate-400 font-semibold mt-1">per person</p>
-
-      <ul class="mt-8 space-y-4 text-sm font-medium">
-        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Entry Fee Included</li>
-        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Food & Drinks</li>
-        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Kayaking Experience</li>
-        <li class="flex items-center gap-3"><svg class="w-5 h-5 text-green-500" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Coaster Transport Entry</li>
-      </ul>
-
-      <div class="mt-8 bg-slate-50 dark:bg-slate-800/50 p-4 rounded-2xl text-xs border border-slate-100 dark:border-slate-800">
-        <p class="font-bold text-slate-900 dark:text-white mb-1 italic">Included Experiences</p>
-        <p class="leading-relaxed opacity-80">Hiking • Bird Watching • Spiritual Reflection • Mobile Photography</p>
+        <button class="mt-10 w-full py-4 rounded-2xl custom-gradient text-white font-black shadow-xl hover:scale-[1.02] active:scale-95 transition-all">Book Group Now</button>
       </div>
 
-      <button class="mt-8 w-full bg-slate-900 dark:bg-orange-600 hover:bg-orange-700 text-white font-bold py-4 rounded-2xl transition-colors shadow-lg">Book Now</button>
+      <div class="group bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 p-8 card-shadow transition-all duration-300 hover:border-blue-500/50 flex flex-col">
+        <div class="mb-8">
+            <span class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 block mb-2">Group Size: 15 Guests</span>
+            <h2 class="text-2xl font-bold">Team Explorer</h2>
+        </div>
+
+        <div class="mb-8 bg-slate-50 dark:bg-slate-800/50 rounded-2xl p-4 border border-slate-100 dark:border-slate-700">
+            <div class="flex items-baseline gap-1">
+                <span class="text-4xl font-black text-slate-900 dark:text-white leading-none">60,000</span>
+                <span class="text-sm font-bold text-slate-500">TZS</span>
+            </div>
+            <p class="text-[10px] font-bold text-blue-600 uppercase mt-2 tracking-wide">Best value for teams</p>
+        </div>
+
+        <div class="space-y-6 flex-grow">
+            <div>
+                <p class="text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-4">Core Inclusions</p>
+                <ul class="space-y-3">
+                    <li class="flex items-center gap-3 text-sm font-medium"><svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Entry Fee Included</li>
+                    <li class="flex items-center gap-3 text-sm font-medium"><svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Food & Drinks</li>
+                    <li class="flex items-center gap-3 text-sm font-medium"><svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Kayaking Experience</li>
+                    <li class="flex items-center gap-3 text-sm font-medium text-blue-600 dark:text-blue-400"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Hiace Transport Entry</li>
+                </ul>
+            </div>
+
+            <div class="pt-6 border-t border-slate-100 dark:border-slate-800">
+                <p class="text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-3 italic">Included Experiences</p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="text-[11px] px-2 py-1 rounded bg-slate-100 dark:bg-slate-800 font-semibold">Hiking</span>
+                    <span class="text-[11px] px-2 py-1 rounded bg-slate-100 dark:bg-slate-800 font-semibold">Bird Watching</span>
+                    <span class="text-[11px] px-2 py-1 rounded bg-slate-100 dark:bg-slate-800 font-semibold">Reflection</span>
+                    <span class="text-[11px] px-2 py-1 rounded bg-slate-100 dark:bg-slate-800 font-semibold">Mobile Photo</span>
+                </div>
+            </div>
+        </div>
+
+        <button class="mt-10 w-full py-4 rounded-2xl bg-blue-600 text-white font-bold hover:bg-blue-700 transition-all">Book This Group</button>
+      </div>
+
+      <div class="group bg-white dark:bg-slate-900 rounded-3xl border border-slate-200 dark:border-slate-800 p-8 card-shadow transition-all duration-300 hover:border-orange-500/50 flex flex-col">
+        <div class="mb-8">
+            <span class="text-[10px] font-black uppercase tracking-[0.2em] text-slate-400 block mb-2">Group Size: 30 Guests</span>
+            <h2 class="text-2xl font-bold">Grand Expedition</h2>
+        </div>
+
+        <div class="mb-8 bg-slate-50 dark:bg-slate-800/50 rounded-2xl p-4 border border-slate-100 dark:border-slate-700">
+            <div class="flex items-baseline gap-1">
+                <span class="text-4xl font-black text-slate-900 dark:text-white leading-none">55,000</span>
+                <span class="text-sm font-bold text-slate-500">TZS</span>
+            </div>
+            <p class="text-[10px] font-bold text-orange-600 uppercase mt-2 tracking-wide">Maximum Savings</p>
+        </div>
+
+        <div class="space-y-6 flex-grow">
+            <div>
+                <p class="text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-4">Core Inclusions</p>
+                <ul class="space-y-3">
+                    <li class="flex items-center gap-3 text-sm font-medium"><svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Entry Fee Included</li>
+                    <li class="flex items-center gap-3 text-sm font-medium"><svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Food & Drinks</li>
+                    <li class="flex items-center gap-3 text-sm font-medium"><svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Kayaking Experience</li>
+                    <li class="flex items-center gap-3 text-sm font-medium text-orange-600"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24"><path d="M5 13l4 4L19 7"/></svg>Coaster Transport Entry</li>
+                </ul>
+            </div>
+
+            <div class="pt-6 border-t border-slate-100 dark:border-slate-800">
+                <p class="text-[11px] font-bold text-slate-400 uppercase tracking-widest mb-3 italic">Included Experiences</p>
+                <div class="flex flex-wrap gap-2">
+                    <span class="text-[11px] px-2 py-1 rounded bg-slate-100 dark:bg-slate-800 font-semibold">Hiking</span>
+                    <span class="text-[11px] px-2 py-1 rounded bg-slate-100 dark:bg-slate-800 font-semibold">Bird Watching</span>
+                    <span class="text-[11px] px-2 py-1 rounded bg-slate-100 dark:bg-slate-800 font-semibold">Reflection</span>
+                    <span class="text-[11px] px-2 py-1 rounded bg-slate-100 dark:bg-slate-800 font-semibold">Mobile Photo</span>
+                </div>
+            </div>
+        </div>
+
+        <button class="mt-10 w-full py-4 rounded-2xl bg-orange-600 text-white font-bold hover:bg-orange-700 transition-all">Book This Group</button>
+      </div>
+
     </div>
   </main>
-
+  
 </body>
 </html>
